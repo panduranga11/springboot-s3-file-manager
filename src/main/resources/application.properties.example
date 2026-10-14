@@ -1,0 +1,19 @@
+# Copy this file to application.properties and fill in your values.
+# Never commit application.properties with real credentials.
+
+spring.application.name=S3DemoApplication
+
+# AWS Configuration
+aws.region=us-east-2
+aws.s3.bucket-name=spring-bucket121
+
+# AWS Credentials — fill in your IAM user's keys
+aws.access-key-id=YOUR_ACCESS_KEY_ID
+aws.secret-access-key=YOUR_SECRET_ACCESS_KEY
+
+# Multipart upload limits
+spring.servlet.multipart.max-file-size=50MB
+spring.servlet.multipart.max-request-size=50MB
+
+# Server port
+server.port=8081
